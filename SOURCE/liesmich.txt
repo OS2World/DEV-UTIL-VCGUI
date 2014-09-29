@@ -1,0 +1,11 @@
+VCGUI-Sourcecode
+~~~~~~~~~~~~~~~~
+VCGUI ist mit WDSibyl programmiert, siehe www.wdsibyl.org.
+Vor der Benutzung sind die Pfadeinstellungen in der Projektdatei OS2VC.SPR
+anzupassen.
+
+Das betrifft einmal die Angaben zu den Pfaden der WDSIBYL-Installation, also
+alle die Eintr„ge, in denen der Pfad D:\PROG\WDSIBYL vorkommt.
+
+Als zweites das Projektverzeichnis D:\PROG\WDSIBYL\PROJECTS\OS2CVS, das nicht
+zwangsl„ufig in der Pfadstruktur von WDSIBYL liegen muss.

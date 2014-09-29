@@ -1,0 +1,74 @@
+VCGUI fr eCS und OS/2
+~~~~~~~~~~~~~~~~~~~~~~
+Dieses Programm ist eine grafische Oberfl„che fr Versionsverwaltungsprogramme.
+In der ersten Version wird nur CVS untersttzt, Subversion (svn) folgt in einer
+der n„chsten Versionen.
+
+Das Programm ist Freeware und ver”ffentlicht unter der GNU General Public License.
+Details siehe in copying.txt.
+
+Es wurde mit der Pascal-Entwicklungsumgebung WDSibyl entwickelt. N„heres dazu
+siehe unter http://www.wdsibyl.org.
+
+Haftungsausschluss
+~~~~~~~~~~~~~~~~~~
+Sie nutzen dieses Programm auf eigene Gefahr. Der Autor gibt keinerlei
+Garantie fr die Funktionalit„t oder irgendetwas anderes im Zusammenhang
+mit diesem Programm.
+Unter keinen Umst„nden ist der Autor verantwortlich zu machen fr Sch„den
+oder irgendwelche anderen Folgen, die aus der Nutzung des Programmes entstehen.
+
+Einstieg
+~~~~~~~~
+Es sollten die Grundbegriffe der Versionsverwaltung bekannt sein. Eine deutsche
+CVS-Doku findet sich unter http://www.fido.de/kama/cvsmtp/de/cvs-de_toc.html.
+
+Systemvoraussetzungen
+~~~~~~~~~~~~~~~~~~~~~
+- eCS oder OS/2 ab V 4.0 (V 3.0 mag auch gehen, nicht gestestet)
+- EMX V 0.9d fr CVS.EXE
+
+Untersttzte Funktionalit„ten:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Anlegen eines lokalen Repositories
+- Importieren von Projektverzeichnissen
+- Checkout von Projekten
+- Update von Projekten mit verschiedenen Optionen (clean copy, date/time, tag/branch)
+- Commit der nderungen
+- Anzeige Historie (Liste)
+- Vergleichen von Revisionen (ber externes Vergleichsprogramm, z.B. PMDIFF)
+- Hinzufgen von Verzeichnissen und Dateien
+- L”schen von Dateien lokal und aus dem Repsitory
+- Edit/Unedit (wenn schreibgeschtzt ausgecheckt wird)
+- Erzeugen Tag oder Branch
+- Zusammenfhren (Merge) eines Branches mit dem Head
+
+Benutzung
+~~~~~~~~~
+Wenn vorher schon WinCVS oder CrossVC (LinCVS) benutzt worden ist, sollte die Einarbeitung
+leicht sein, da der Aufbau des Programmes „hnlich ist.
+
+In den "Settings" unter "Options" sind einmal die Pfade zu den externen Programmen einzustellen.
+Auf der zweiten Karte "CVS profiles" werden die Verbindungen zu den Repositories eingestellt.
+Derzeit werden lokale und PServer-Repositories untersttzt. Unten wird CVSROOT-String zusammen-
+gesetzt angezeigt.
+Mit Klick auf den kleinen "+"-Knopf wird ein neuer Eintrag fr ein Repository angelegt und die
+weiteren Daten eingetragen.
+
+Im linken Teil des Hauptfensters befindet sich eine Baumansicht, ber das Men "Project" k”nnen Projektordner
+zur Liste hinzugefgt werden.
+Rechts ist die Dateiliste, unterteilt in "Controlled" und "Not Controlled".
+Unten das Logfenster fr die Ausgaben des entsprechenden Kommandozeilentools cvs.exe oder svn.exe.
+Alle Bereiche haben Kontextmens.
+
+Weitere Infos und Screenshots sind auf meiner Homepage http://Bohn-Stralsund.de unter dem Link
+"VCGUI" in der Programmliste zu finden.
+
+Historie
+~~~~~~~~
+V 0.9.0.2
+- Vereinfachte Datums-/Zeiteingabe fr Update
+- Verhinderung der Zugriffsverletzung beim Tab-Wechsel wenn der Projektbaum leer ist
+
+V 0.9.0.1
+- Erste ”ffentliche Version
